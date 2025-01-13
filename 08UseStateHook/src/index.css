@@ -1,0 +1,44 @@
+/*Reset Styles */
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+background-color: rgba(255, 228, 196, 0.76);
+}
+
+.name-div{
+  margin: 10% 20%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.87);
+  color: whitesmoke;
+  padding: 50px;
+  border-radius: 12px;
+  
+}
+.name-div p{
+  font-size: 2.5rem;
+  border-radius: 10px;
+  height: 60%;
+}
+.name-div button{
+  height: 45px;
+  width: 100px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(127, 255, 212, 0.534);
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.5s ease-in-out;
+  margin: 20px
+  
+}
+
+
+
+.name-div button:hover {
+  transform: scale(1.2);
+  background-color: rgba(0, 128, 128, 0.8);
+}
